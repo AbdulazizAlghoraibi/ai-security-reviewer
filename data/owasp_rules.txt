@@ -1,0 +1,10 @@
+1. Injection (SQLi, NoSQLi, Command Injection): Ensure all user inputs are sanitized and parameterized queries are used.
+2. Broken Authentication: Check for weak password hashing, missing multi-factor authentication, or exposed session tokens.
+3. Sensitive Data Exposure: Ensure passwords, API keys, and PII are not hardcoded or logged in plaintext.
+4. XML External Entities (XXE): Disable external entity resolution in XML parsers.
+5. Broken Access Control: Verify that users cannot access unauthorized resources or perform administrative actions.
+6. Security Misconfiguration: Look for default passwords, open ports, or exposed debug endpoints.
+7. Cross-Site Scripting (XSS): Ensure output encoding and input validation to prevent malicious script execution in the browser.
+8. Insecure Deserialization: Do not deserialize untrusted data without verification.
+9. Using Components with Known Vulnerabilities: Check if libraries or frameworks are outdated.
+10. Insufficient Logging & Monitoring: Ensure critical security events (logins, access failures) are logged.
